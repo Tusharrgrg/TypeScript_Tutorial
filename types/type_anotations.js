@@ -3,4 +3,3 @@
 // or function return value.
 var myName = "Tushar agrawal";
 console.log(myName);
-
