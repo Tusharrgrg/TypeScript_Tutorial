@@ -1,11 +1,10 @@
-"use strict";
-const input1 = document.getElementById("num1");
-const input2 = document.getElementById("num2");
-const proces = document.querySelector("button");
+var input1 = document.getElementById("num1");
+var input2 = document.getElementById("num2");
+var proces = document.querySelector("button");
 function add(a, b) {
     return a + b;
 }
-const element = document.getElementById("add_result");
+var element = document.getElementById("add_result");
 // this shows button's behaviour on clich that button
 // proces?.addEventListener('click', function () {
 //     if (element) {
@@ -21,18 +20,9 @@ const element = document.getElementById("add_result");
 //     age : 21
 // }
 // this sis an object datatype in typescript
-const person = {
+var person = {
     name: "Tushar",
     age: 21,
     hobbies: ["Sports", "Music", "Art & Craft"]
 };
 console.log(person.name);
-let dummy = function (a, b) {
-    if (typeof a === "number" && b === "number") {
-        return a + b;
-    }
-    else {
-        return a.toString() + b.toString();
-    }
-};
-console.log(dummy("tushar", 5));

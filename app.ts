@@ -32,14 +32,3 @@ const person = {
 }
 
 console.log(person.name);
-
-// union operator to use more then one type operator
-let dummy = function(a:string | number , b : string | number) {
-    if(typeof a === "number" && b === "number"){
-        return a+b;
-    }else{
-        return a.toString() + b.toString();
-    }
-}
-
-console.log(dummy("tushar", 5));
