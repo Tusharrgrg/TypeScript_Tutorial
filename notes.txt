@@ -1,0 +1,16 @@
+TypeScript 
+- It is a superset of javaScript so which means any any valid javaScript code is also a valid TypeScript code.
+- It is developed by microsoft in 2012 and now it a open source project which have large community of contributers.
+- Javascript is a dynamically typed language but typescript is strongly language.
+- Explicitly define datatype.
+- Easiar to write code.
+- Easiar to maintain.
+- Its provide interface, classes, Touple.etc.
+- TypeScript catches errors in compile time rather than run time its make Easiar to catch bugs.
+-
+---
+
+Types-
+- in typescript type anotations is way to explicitly specifying the type of the variable or a function parameter
+or function return value.
+- it helps the typescript compiler to enforce the type checking and provide type safety during the developement.
