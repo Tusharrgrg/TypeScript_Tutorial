@@ -14,3 +14,35 @@ Types-
 - in typescript type anotations is way to explicitly specifying the type of the variable or a function parameter
 or function return value.
 - it helps the typescript compiler to enforce the type checking and provide type safety during the developement.
+Number => it targets all the numbers including integer, float, etc.
+String => include all the text data.
+Boolean => taking true & false
+- In TypeScript, you work with types like string or number all the times.
+- Important: It is string and number (etc.), NOT String, Number etc.
+- The core primitive types in TypeScript are all lowercase!
+Objects => any javascript object
+
+-Of course object types can also be created for nested objects.
+-Let's say you have this JavaScript object:
+
+const product = {
+  id: 'abc1',
+  price: 12.99,
+  tags: ['great-offer', 'hot-and-new'],
+  details: {
+    title: 'Red Carpet',
+    description: 'A great carpet - almost brand-new!'
+  }
+}
+This would be the type of such an object:
+{
+  id: string;
+  price: number;
+  tags: string[];
+  details: {
+    title: string;
+    description: string;
+  }
+}
+
+Touple => fixed length and fixed datatype 
